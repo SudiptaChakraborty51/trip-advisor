@@ -2,7 +2,7 @@
   width: 250px;
   height: 250px;
   border-radius: 10px;
-  box-shadow: 1px 1px 3px lightgray;
+  box-shadow: rgba(245, 245, 247, 0.66) 0px 2px 5px 0px;
   position: relative;
   cursor: pointer;
 }
