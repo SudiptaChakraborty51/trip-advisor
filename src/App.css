@@ -1,3 +1,74 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css";
+
 .App {
   text-align: center;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: white;
+}
+
+:root {
+  --bg-color: #242424;
+  --text-color: #626cff;
+  --website-color: #eda392;
+}
+
+.heading-text {
+  color: var(--text-color);
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.back-heading-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.fa-arrow-left {
+  cursor: pointer;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.details-content {
+  display: flex;
+  gap: 2rem;
+  margin: 3rem;
+}
+
+.details-content img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.details-content .destination-details {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.details-content .destination-details p {
+  margin: 10px 0;
+}
+
+.details-content .destination-details p strong {
+  color: var(--text-color);
+}
+
+.website-link {
+  color: var(--website-color);
+  text-decoration: none;
+  font-weight: bold;
 }
