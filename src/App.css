@@ -45,6 +45,7 @@ body {
   display: flex;
   gap: 2rem;
   margin: 3rem;
+  flex-wrap: wrap;
 }
 
 .details-content img {
